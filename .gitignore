@@ -1,2 +1,4 @@
 dist/
 dist/*
+dist/srtgen.exe
+build/srtgen/srtgen.pkg
