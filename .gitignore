@@ -2,3 +2,8 @@ dist/
 dist/*
 dist/srtgen.exe
 build/srtgen/srtgen.pkg
+echo "dist/srtgen.exe" >> .gitignore
+echo "build/srtgen/srtgen.pkg" >> .gitignore
+git add .gitignore
+git commit -m "Ignorando archivos grandes"
+git push origin main
